@@ -13,26 +13,13 @@ active.BorderSizePixel = 1
 active.Position = UDim2.new(0.044,0, 0.229, 0)
 active.Size = UDim2.new(0, 99, 0, 31)
 active.Visible = true
+active.active = true
 active.Draggable = true
-
-
-
-btnSex.Name = "Sex"
-btnSex.Parent = FGUI
-btnSex.BackgroundColor3 = Color3.new(255,255,255)
-btnSex.BorderSizePixel = 1
-btnSex.Position = UDim2.new (0.044, 0,0.229, 0)
-btnSex.Size = UDim2.new (0, 99,0, 31)
-btnSex.Visible = true
-btnSex.Active = true
-btnSex.Draggable = false
-btnSex.Selectable = true
-btnSex.Font = Enum.Font.SourceSansBold
-btnSex.Text = "start"
-btnSex.TextColor3 = Color3.new(0, 0, 0)
-btnSex.TextSize = 20
- 
- 
+active.Selectable = true 
+active.font = Enum.Font.SourceSansBold
+active.text = "active"
+active.TextColor3 = Color3.new(0,0,0)
+active.TextSize = 20
 
 
 active.MouseButton1Click:Connect(function()
