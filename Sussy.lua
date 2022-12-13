@@ -42,7 +42,7 @@ lbltitle.Active = true
 lbltitle.Draggable = false
 lbltitle.Selectable = true
 lbltitle.Font = Enum.Font.SourceSansBold
-lbltitle.Text = "A Simple Fuck(ing) GUI!!"
+lbltitle.Text = "sussy GUI (R15)"
 lbltitle.TextColor3 = Color3.new(0, 0, 0)
 lbltitle.TextSize = 20
  
@@ -61,7 +61,7 @@ btnSex.Active = true
 btnSex.Draggable = false
 btnSex.Selectable = true
 btnSex.Font = Enum.Font.SourceSansBold
-btnSex.Text = "Let's FUCK!!"
+btnSex.Text = "Start"
 btnSex.TextColor3 = Color3.new(0, 0, 0)
 btnSex.TextSize = 20
  
@@ -102,7 +102,7 @@ btnSex.MouseButton1Click:Connect(function()
  
 local player = tbxVictim.Text
 local stupid = Instance.new('Animation')
-stupid.AnimationId = 'rbxassetid://11811428937'
+stupid.AnimationId = 'rbxassetid://11811476034'
 hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
 pcall(function()
     hummy.Parent.Pants:Destroy()
