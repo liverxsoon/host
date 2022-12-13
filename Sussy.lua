@@ -102,7 +102,7 @@ btnSex.MouseButton1Click:Connect(function()
  
 local player = tbxVictim.Text
 local stupid = Instance.new('Animation')
-stupid.AnimationId = 'rbxassetid://148840371'
+stupid.AnimationId = 'rbxassetid://11811428937'
 hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
 pcall(function()
     hummy.Parent.Pants:Destroy()
