@@ -8,7 +8,8 @@ local Toggle = Instance.new("TextButton")
 local StatusPF = Instance.new("TextLabel")
 local Status = Instance.new("TextLabel")
 local Credit = Instance.new("TextLabel")
-local InfiniteJumpEnabled = Players.LocalPlayer
+local InfiniteJumpEnabled = false
+local Clipon = false
 
 Noclip.Name = "Noclip"
 Noclip.Parent = game.CoreGui
@@ -102,12 +103,11 @@ Toggle.MouseButton1Click:connect(function()
 		Clipon = true
 		Status.Text = "on"
 		Status.TextColor3 = Color3.new(0,185,0)
-		Stepped = game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-			if not Clipon == false then
-				for a, b in pairs(Workspace:GetChildren()) do
-                if b.Name == Plr.Name then
-                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
-                if v:IsA("BasePart") then
+		Stepped = InfiniteJumpEnabled = true 
+        if InfiniteJumpEnabled then
+
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+			 then
                 v.CanCollide = false
                 end end end end
 			else
