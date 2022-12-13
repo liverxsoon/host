@@ -61,7 +61,7 @@ StatusPF.Size = UDim2.new(0, 56, 0, 20)
 StatusPF.Font = Enum.Font.Highway
 StatusPF.FontSize = Enum.FontSize.Size24
 StatusPF.Text = "Status:"
-StatusPF.TextColor3 = Color3.new(251, 251, 251)
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
 StatusPF.TextSize = 20
 StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
 StatusPF.TextStrokeTransparency = 0
@@ -102,7 +102,7 @@ Toggle.MouseButton1Click:connect(function()
 	if Status.Text == "off" then
 		Clipon = true
 		Status.Text = "on"
-		Status.TextColor3 = Color3.new(250,250,250)
+		Status.TextColor3 = Color3.new(1,1,1)
 		Stepped = game:GetService("RunService").Stepped:Connect(function()
 			if not Clipon == false then
 				for a, b in pairs(Workspace:GetChildren()) do
@@ -118,6 +118,6 @@ Toggle.MouseButton1Click:connect(function()
 	elseif Status.Text == "on" then
 		Clipon = false
 		Status.Text = "off"
-		Status.TextColor3 = Color3.new(250,250,255)
+		Status.TextColor3 = Color3.new(2,2,5)
 	end
 end)
