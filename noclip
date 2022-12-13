@@ -79,7 +79,7 @@ Status.Text = "off"
 Status.TextColor3 = Color3.new(0.666667, 0, 0)
 Status.TextScaled = true
 Status.TextSize = 14
-Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextStrokeColor3 = Color3.new(1, 0, 1)
 Status.TextWrapped = true
 Status.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -91,7 +91,7 @@ Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
 Credit.Size = UDim2.new(0, 128, 0, 17)
 Credit.Font = Enum.Font.SourceSans
 Credit.FontSize = Enum.FontSize.Size18
-Credit.Text = "[V 1.06]"
+Credit.Text = "[V 1.09]"
 Credit.TextColor3 = Color3.new(1, 1, 1)
 Credit.TextSize = 16
 Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
