@@ -22,7 +22,8 @@ active.TextColor3 = Color3.new(0,0,0)
 active.TextSize = 20
 
 
-active.MouseButton1Click:Connect(function()
+
+active.MouseButton1Click:Connect(function(1)
 
 local InfiniteJumpEnabled = true
 
@@ -32,10 +33,15 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 
         game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
 
-active.MouseButton1Click:Connect(function()
+active.MouseButton1Click:Connect(function(2)
 
 local InfiniteJumpEnabled = false 
 
-    if InfiniteJumpEnabled = true then
+    if InfiniteJumpEnabled = false then
 
         game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("")
+
+    return active.MouseButton1Click:Connect(function(1)
+end
+    end)
+
