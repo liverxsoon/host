@@ -1,0 +1,8 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/liverxsoon/search/main/Esp2", true))()
+wait(2)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/liverxsoon/search/main/fly", true))()
+wait(2)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/liverxsoon/search/main/noclip", true))()
