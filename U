@@ -1,0 +1,11 @@
+ 
+local target = workspace:FindFirstChild("liverxsoonNo2").Humanoid -- Change what's between the quotation marks to the player's name.
+ 
+target.Health = 90 -- Change this number to the health you want the player to have.
+ 
+-- You can change it to the below code, but it's optional.
+ 
+local target = workspace:FindFirstChild("liverxsoonNo2").Humanoid -- Change what's between the quotation marks to the player's name.
+ 
+target.MaxHealth = 1000000 -- Change this number to the maximum health you want the player to have.
+target.Health = 1000000 -- Change this number to the health you want the player to have.
