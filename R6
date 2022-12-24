@@ -105,10 +105,10 @@ local stupid = Instance.new('Animation')
 stupid.AnimationId = 'rbxassetid://148840371'
 hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
 pcall(function()
-    hummy.Parent.Pants:Destroy()
+
 end)
 pcall(function()
-    hummy.Parent.Shirt:Destroy()
+
 end)
 local notfunny = hummy:LoadAnimation(stupid)
 notfunny:Play()
