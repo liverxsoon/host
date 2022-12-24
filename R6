@@ -105,7 +105,7 @@ local stupid = Instance.new('Animation')
 stupid.AnimationId = 'rbxassetid://148840371'
 hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
 
-end)
+
 
 local notfunny = hummy:LoadAnimation(stupid)
 notfunny:Play()
