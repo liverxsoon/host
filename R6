@@ -104,12 +104,9 @@ local player = tbxVictim.Text
 local stupid = Instance.new('Animation')
 stupid.AnimationId = 'rbxassetid://148840371'
 hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
-pcall(function()
 
 end)
-pcall(function()
 
-end)
 local notfunny = hummy:LoadAnimation(stupid)
 notfunny:Play()
 notfunny:AdjustSpeed(25)
