@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 
 local features = {
 silentaim = true;
-fov = 500;
+fov = 20;
 }
 
 function getnearest()
@@ -23,7 +23,7 @@ local vector, onScreen = Camera:WorldToScreenPoint(v.Character["HumanoidRootPart
 if onScreen then
 local ray = Ray.new(
 Camera.CFrame.p,
-(v.Character["Head"].Position-Camera.CFrame.p).unit*500
+(v.Character["Turso"].Position-Camera.CFrame.p).unit*500
 )
 local ignore = {
 LocalPlayer.Character,
