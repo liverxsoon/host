@@ -61,7 +61,7 @@ btnSex.Active = true
 btnSex.Draggable = false
 btnSex.Selectable = true
 btnSex.Font = Enum.Font.SourceSansBold
-btnSex.Text = "start"
+btnSex.Text = "start tp"
 btnSex.TextColor3 = Color3.new(0, 0, 0)
 btnSex.TextSize = 20
  
@@ -87,7 +87,7 @@ lblFUCKEMALL.Position = UDim2.new (0.025, 0,0.856, 0)
 lblFUCKEMALL.Size = UDim2.new (0, 301,0, 27)
 lblFUCKEMALL.Visible = true
 lblFUCKEMALL.Font = Enum.Font.SourceSansBold
-lblFUCKEMALL.Text = "FUCK AND FUCK"
+lblFUCKEMALL.Text = "nice"
 lblFUCKEMALL.TextColor3 = Color3.new(0, 0, 0)
 lblFUCKEMALL.TextSize = 20
  
@@ -109,7 +109,7 @@ hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
 
 local notfunny = hummy:LoadAnimation(stupid)
 notfunny:Play()
-notfunny:AdjustSpeed(25)
+notfunny:AdjustSpeed(0)
 while hummy.Parent.Parent ~= nil do
 wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[tbxVictim.Text].Character.HumanoidRootPart.CFrame
