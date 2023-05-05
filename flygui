@@ -137,8 +137,8 @@ nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 Title = "Man face";
-Text = "Look at me"
-Icon = "rbxthumb://type=Asset&id=13226327189"})
+Text = "Look at me closer"
+Icon = "rbxthumb://type=Asset&id=13226327189&w=150&h=150"})
 Duration = 5; 
 
 Frame.Active = true -- main = gui
