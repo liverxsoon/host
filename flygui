@@ -136,9 +136,9 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false 
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-Title = "liverxsoon:";
-Text = "Why huh? You HAVE A PROBLEM?"
-Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Title = "Man face:";
+Text = "Look at me"
+Icon = "rbxthumb://type=Asset&id=13226327189&w=150&h=150"})
 Duration = 5; 
 
 Frame.Active = true -- main = gui
