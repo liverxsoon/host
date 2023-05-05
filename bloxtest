@@ -26,7 +26,7 @@ function CheckQuest()
  function TP(P)
 	 Distance = (P.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
 	 if Distance < 10 then
-		 Speed = 1000
+		 Speed = 200
 	 elseif Distance < 170 then
 		 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = P
 		 Speed = 350
