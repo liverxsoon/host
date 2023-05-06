@@ -120,7 +120,7 @@ mini.BackgroundColor3 = Color3.fromRGB(35, 40, 35)
 mini.Font = "SourceSans"
 mini.Size = UDim2.new(0, 45, 0, 28)
 mini.Text = "-"
-mini.TextColor3 = Color3.fromRGB(35, 35, 35)
+mini.TextColor3 = Color3.fromRGB(255, 255, 255)
 mini.TextSize = 40
 mini.Position = UDim2.new(0, 44, -1, 27) 
 
