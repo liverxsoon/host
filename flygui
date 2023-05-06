@@ -196,7 +196,7 @@ end
 
 end)
 end
-game.Players.LocalPlayer.Character.Animate.Disabled = true
+game.Players.LocalPlayer.Character.Animate.Disabled = false
 local Char = game.Players.LocalPlayer.Character
 local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController") 
 
